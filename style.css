@@ -1,9 +1,12 @@
 .body {
     font-family: 'Gemunu Libre', sans-serif;
 }
-.heading {
+.navigation {
     background-color: #7C8594;
-    padding : 2rem;
+    padding : 0.5rem;
+    overflow :hidden;
+}
+.heading {
     font-size: 3rem;
     text-align: center;
 }
@@ -15,4 +18,30 @@
     padding: 0.5rem;
     color :white;
     border-radius: 0.5rem;
+}
+#button-id {
+    background-color: #7C8594;
+    padding: 0.5rem;
+    color :white;
+    border-radius: 0.5rem;
+}
+.quiz {
+    color : white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+}
+.quiz a:hover {
+    color :black;
+}
+.menu-item {
+    color : white;
+    text-decoration: none;
+}
+.list li{
+    display : inline;
+    margin :0%;
+    float : right;
+    padding : 1rem;
+    list-style: none;
 }
