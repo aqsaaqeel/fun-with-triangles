@@ -25,6 +25,12 @@
     color :white;
     border-radius: 0.5rem;
 }
+#button-area-triangle {
+    background-color: #7C8594;
+    padding: 0.5rem;
+    color :white;
+    border-radius: 0.5rem;
+}
 .quiz {
     color : white;
     text-decoration: none;

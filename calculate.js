@@ -2,8 +2,8 @@ var inputAngles = document.querySelectorAll(".angles");
 var base = inputAngles[0].value;
 var height = inputAngles[1].value;
 var output = document.querySelector(".outputArea");
-var evaluateButton = document.querySelector("#buttonId");
-var evaluateArea = document.querySelector("#area-triangle");
+var evaluateButton = document.querySelector("#button-id");
+var evaluateArea = document.querySelector("#button-area-triangle");
 var outputArea = document.querySelector(".outputArea2");
 
 function calculateHypotenuse() {

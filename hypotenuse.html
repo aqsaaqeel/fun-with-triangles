@@ -6,22 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finding hypotenuse</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap" rel="stylesheet">
 </head>
 <body class = "body">
     <nav class = "navigation">
-        <h1 class = "heading">Find the hypotenuse</h1>
-    </nav>
+        <h1 class = "heading">Evalutaion of triangle</h1>
+        <div class = "quiz" >
+        <ul class = "list">
+        <li><a class = "menu-item" href="index.html">main</a></li>
+        <li><a class = "menu-item" href="quiz.html">quiz</a></li>
+        <li><a class = "menu-item" href="hypotenuse.html">find triangle</a> </li>
+        </ul>
+        </div>
+        </nav>
 
     <div>
         <label for = "angles">Angle 1</label>
         <input class = "angles" type = "number" />
         <label for = "angles">Angle 2</label>
         <input class = "angles" type = "number" />
-        <button id = "buttonId">Evaluate hypotenuse</button>
+        <button id = "button-id">Evaluate hypotenuse</button>
     </div>
     <p class = "outputArea"></p>
     <h2>Calculate the area of the triangle</h2>
-    <button id = "area-triangle">Calculate Area</button>
+    <button id = "button-area-triangle">Calculate Area</button>
     <p class = "outputArea2"></p>
     <script src="calculate.js"></script>
 </body>
