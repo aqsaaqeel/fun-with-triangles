@@ -1,4 +1,4 @@
-var inputAngles = document.querySelectorAll(".angles");
+var inputAngles = document.querySelectorAll(".sides");
 var base = inputAngles[0].value;
 var height = inputAngles[1].value;
 var output = document.querySelector(".outputArea");

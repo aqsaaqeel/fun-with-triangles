@@ -1,5 +1,9 @@
 .body {
     font-family: 'Gemunu Libre', sans-serif;
+    text-align: justify;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
 }
 .navigation {
     background-color: #7C8594;
@@ -10,7 +14,7 @@
     font-size: 3rem;
     text-align: center;
 }
-.angles {
+.sides {
     display : block;
 }
 .check-triangle {
@@ -50,4 +54,7 @@
     float : right;
     padding : 1rem;
     list-style: none;
+}
+.quiz-form {
+    font-size: 1.5rem;
 }
