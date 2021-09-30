@@ -7,8 +7,8 @@ var evaluateArea = document.querySelector("#button-area-triangle");
 var outputArea = document.querySelector(".outputArea2");
 
 function calculateHypotenuse() {
-    var hypotenuse = Math.sqrt((base*base) + (height*height));
-    output.innerText = "Hypotenuse is "+ hypotenuse;
+    var hype = Math.sqrt((base*base) + (height*height));
+    output.innerText = "Hypotenuse is "+ hype;
     // console.log("hello wassup")
 }
 
