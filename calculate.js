@@ -9,6 +9,7 @@ var outputArea = document.querySelector(".outputArea2");
 function calculateHypotenuse() {
     var hypotenuse = Math.sqrt((base*base) + (height*height));
     output.innerText = "Hypotenuse is "+ hypotenuse;
+    // console.log("hello wassup")
 }
 
 function calculateArea() {
@@ -17,6 +18,7 @@ function calculateArea() {
 }
 
 evaluateButton.addEventListener("click", calculateHypotenuse());
+// evaluateButton.addEventListener("click", console.log("clicked"));
 evaluateArea.addEventListener("click", calculateArea());
 
 
